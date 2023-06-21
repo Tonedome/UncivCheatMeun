@@ -1,2 +1,2 @@
 # UncivCheatMeun
-Get buildings by activating technology to choose the modification details you need. Be careful that this will damage the game balance! ! !
+Obtain buildings by activating technology, and build the modification effects you need. Note that this will damage the game balance! ! !
