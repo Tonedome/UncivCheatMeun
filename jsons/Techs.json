@@ -1,0 +1,67 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 999999,
+		"buildingCost": 1,
+		"techs": [
+			{
+				"name": "CheatMenu",
+				"row": 14,
+				"quote": "'1",
+				"uniques": [""]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Ancient era",
+		"techCost": 999999,
+		"buildingCost": 1,
+		"techs": [
+			{
+				"name": "Resource",
+				"row": 14,
+				"quote": "'1",
+				"prerequisites": ["CheatMenu"],
+				"uniques": [""]
+			},
+			{
+				"name": "Unit",
+				"row": 12,
+				"quote": "'1",
+				"prerequisites": ["CheatMenu"],
+				"uniques": [""]
+			},
+			{
+				"name": "Constructing",
+				"row": 16,
+				"quote": "'1",
+				"prerequisites": ["CheatMenu"],
+				"uniques": [""]
+			}
+		]
+	},
+	{
+		"columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 999999,
+		"buildingCost": 1,
+		"techs": [
+			{
+				"name": "Experiment",
+				"row": 12,
+				"quote": "'1",
+				"prerequisites": ["CheatMenu"],
+				"uniques": [""]
+			}
+			{
+				"name": "Other",
+				"row": 16,
+				"quote": "'1",
+				"prerequisites": ["CheatMenu"],
+				"uniques": [""]
+			}
+		]
+	}
+]

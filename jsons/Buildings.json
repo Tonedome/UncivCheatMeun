@@ -1,0 +1,244 @@
+[
+	{
+		"name": "Start",
+		"cost": 1,
+		"requiredTech": "CheatMenu",
+	    "isNationalWonder": true,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [""]
+	},
+	{
+		"name": "On",
+		"cost": 1,
+		"requiredTech": "CheatMenu",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "Start",
+		"uniques": [""]
+	},
+	{
+		"name": "FreeTechnologies",
+		"cost": 1,
+		"requiredTech": "CheatMenu",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "Start",
+		"uniques": ["[1] Free Technologies"]
+	},
+	{
+		"name": "ExperimentModifier",
+		"cost": 1,
+		"requiredTech": "Experiment",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "On",
+		"uniques": [""]
+	},
+	{
+		"name": "OtherModifier",
+		"cost": 1,
+		"requiredTech": "Other",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "On",
+		"uniques": [""]
+	},
+	{
+		"name": "UnitModifier",
+		"cost": 1,
+		"requiredTech": "Unit",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "On",
+		"uniques": [""]
+	},
+	{
+		"name": "ResourceModifier",
+		"cost": 1,
+		"requiredTech": "Resource",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "On",
+		"uniques": [""]
+	},
+	{
+		"name": "ConstructingModifier",
+		"cost": 1,
+		"requiredTech": "Constructing",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "On",
+		"uniques": [""]
+	},
+	{
+		"name": "UnitMove",
+		"cost": 1,
+		"requiredTech": "Unit",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "UnitModifier",
+		"uniques": ["[+1] Movement <for [All] units>"]
+	},
+	{
+		"name": "UnitReward",
+		"cost": 1,
+		"requiredTech": "Unit",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "UnitModifier",
+		"uniques": ["Earn [50]% of the damage done to [Wounded] units as [Gold]",
+"Earn [5]% of killed [Wounded] unit's [Cost] as [Science]"]
+	},
+	{
+		"name": "UnitBattle",
+		"cost": 1,
+		"requiredTech": "Unit",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "UnitModifier",
+		"uniques": ["[+50]% XP gained from combat",
+"All adjacent units heal [4] HP when healing"]
+	},
+	{
+		"name": "UnitPower",
+		"cost": 1,
+		"requiredTech": "Unit",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "UnitModifier",
+		"uniques": ["[+25]% Strength <for [Wounded] units>","[+15]% Strength <vs [Wounded] units>","[+10]% to Flank Attack bonuses"]
+	},	
+	{
+		"name": "ResourceModifier:1",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredTech": "Resource",
+		"requiredBuilding": "ResourceModifier",
+		"uniques": ["[10]% [Production] [in all cities]","[10]% [Food] [in all cities]","[10]% [Happiness] [in all cities]","[10]% [Science] [in all cities]","[10]% [Culture] [in all cities]"]
+	},
+	{
+		"name": "ResourceModifier:2",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredTech": "Resource",
+		"requiredBuilding": "ResourceModifier:1",
+		"uniques": ["[20]% [Production] [in all cities]","[20]% [Food] [in all cities]","[20]% [Happiness] [in all cities]","[20]% [Science] [in all cities]","[20]% [Culture] [in all cities]"]
+	},
+	{
+		"name": "ResourceModifier:3",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredTech": "Resource",
+		"requiredBuilding": "ResourceModifier:2",
+		"uniques": ["[30]% [Production] [in all cities]","[30]% [Food] [in all cities]","[30]% [Happiness] [in all cities]","[30]% [Science] [in all cities]","[30]% [Culture] [in all cities]"]
+	},
+	{
+		"name": "ResourceModifier:4",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredTech": "Resource",
+		"requiredBuilding": "ResourceModifier:3",
+		"uniques": ["[40]% [Production] [in all cities]","[40]% [Food] [in all cities]","[40]% [Happiness] [in all cities]","[40]% [Science] [in all cities]","[40]% [Culture] [in all cities]"]
+	},
+	{
+		"name": "ConstructingAll",
+		"cost": 1,
+		"requiredTech": "Constructing",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "ConstructingModifier",
+		"uniques": ["[+20]% Production when constructing [All] units [in all cities]","[+20]% Production when constructing [All] buildings [in all cities]","[+20]% Production when constructing [All] wonders [in all cities]"]
+	},
+	{
+		"name": "ConstructingUnit",
+		"cost": 1,
+		"requiredTech": "Constructing",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "ConstructingModifier",
+		"uniques": ["[+30]% Production when constructing [All] units [in all cities]"]
+	},
+	{
+		"name": "ConstructingBuilding",
+		"cost": 1,
+		"requiredTech": "Constructing",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "ConstructingModifier",
+		"uniques": ["[+30]% Production when constructing [All] buildings [in all cities]"]
+	},
+	{
+		"name": "ConstructingWonder",
+		"cost": 1,
+		"requiredTech": "Constructing",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "ConstructingModifier",
+		"uniques": ["[+30]% Production when constructing [All] wonders [in all cities]"]
+	},
+	{
+		"name": "InfiniteGold",
+		"cost": 1,
+	    "gold": 9999,
+		"requiredTech": "Experiment",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "ExperimentModifier",
+		"uniques": [""]
+	},
+	{
+		"name": "PopulationGrowth",
+		"cost": 1,
+		"requiredTech": "Experiment",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "ExperimentModifier",
+		"uniques": ["[-10]% Food is carried over after population increases [in all cities]"]
+	},
+	{
+		"name": "CityStrength",
+		"cost": 1,
+		"requiredTech": "Experiment",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "ExperimentModifier",
+		"uniques": ["[+100]% City Strength from defensive buildings",
+"[+50]% Strength for cities"]
+	},
+	{
+		"name": "StrategicResources",
+		"cost": 1,
+		"requiredTech": "Other",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "OtherModifier",
+		"uniques": ["Quantity of strategic resources produced by the empire +[50]%"]
+	},
+	{
+		"name": "GreatMultiple",
+		"cost": 1,
+		"requiredTech": "Other",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "OtherModifier",
+		"uniques": ["[+100]% Great Person generation [in all cities]"]
+	},
+	{
+		"name": "Cost",
+		"cost": 1,
+		"requiredTech": "Other",
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"requiredBuilding": "OtherModifier",
+		"uniques": ["[-10]% Gold cost of acquiring tiles [in all cities]",
+"[Gold] cost of purchasing items in cities [-10]%",
+ "[Gold] cost of purchasing [All] buildings [-20]%",
+"[Gold] cost of purchasing [All] units [-10]%",
+"[-10]% Gold cost of upgrading"]
+	},
+]
